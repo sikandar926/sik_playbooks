@@ -1,0 +1,10 @@
+
+---
+- name: Creating a file
+  hosts: nasir
+  gather_facts: no
+  vars:
+    user: sikandar
+
+ tasks:
+   
