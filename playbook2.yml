@@ -6,4 +6,10 @@
     user: humyun
 
   tasks:
+    - name: creating user {{  user  }}
+      user:
+        name:  "{{  user  }}"
+        state: present
+        comment: "{{  user  }}@aol.com"
+  
     
