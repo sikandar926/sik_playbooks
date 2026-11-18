@@ -1,0 +1,9 @@
+---
+- name: addind user jack
+  hosts: sikandar
+  gather_facts: no
+  vars:
+    user: humyun
+
+  tasks:
+    
