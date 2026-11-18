@@ -7,4 +7,10 @@
     user: sikandar
 
  tasks:
-   
+   - name: Creating a file with my name
+     file:
+       path: "/tmp/{{  user  }}_logs.txt"
+       owner: sikandar
+       group: sikandar
+       mode: '0644'
+       state: touch
